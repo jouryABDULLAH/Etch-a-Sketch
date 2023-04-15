@@ -1,0 +1,45 @@
+*,*::after,*::before{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+html{
+    color: rgb(187, 75, 97);;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(85, 215, 159);
+}
+
+.btn{
+    margin-top: 25px;
+    border: none;
+    background-color: inherit;
+    color: inherit;
+}
+
+.btn:hover{
+    color: rgb(192, 86, 107);
+}
+
+.btn:focus{
+    color: rgba(199, 15, 51, 0.714);
+}
+
+
+.box-container{
+    width: 390px;
+    display: grid;
+    border: 2px rgb(137, 101, 107) solid;
+}
+
+.box{
+    
+}

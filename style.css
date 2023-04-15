@@ -22,24 +22,30 @@ body{
     margin-top: 25px;
     border: none;
     background-color: inherit;
-    color: inherit;
+    color: inherit
 }
 
 .btn:hover{
-    color: rgb(192, 86, 107);
+    color: rgb(160, 95, 108);
 }
 
 .btn:focus{
-    color: rgba(199, 15, 51, 0.714);
+    color: rgba(158, 96, 109, 0.714);
 }
 
 
 .box-container{
-    width: 390px;
+    width: 500px;
+    height:500px;
+    background-color: white;
     display: grid;
+    /* grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr); */
     border: 2px rgb(137, 101, 107) solid;
+    margin-top: 35px;
 }
 
 .box{
-    
+
+    border:1px rgb(200, 186, 186) solid;
 }

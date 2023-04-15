@@ -1,5 +1,6 @@
 
 let container = document.querySelector('.box-container');
+let btn = document.querySelector('.btn');
 
 function make_grids(num = 16){ // default size is 16x16
 
@@ -16,3 +17,15 @@ function make_grids(num = 16){ // default size is 16x16
 }
 
 make_grids();
+
+btn.addEventListener('click', () => {
+
+    let size = 0;
+
+    do {
+        size = prompt('Enter the size:','');
+    } while (size >= 100);
+
+    make_grids(size);
+
+});

@@ -22,16 +22,17 @@ body{
     margin-top: 25px;
     border: none;
     background-color: inherit;
-    color: inherit
+    color: inherit;
+    font-size: 15px;
 }
 
 .btn:hover{
     color: rgb(160, 95, 108);
 }
-
+/* 
 .btn:focus{
     color: rgba(158, 96, 109, 0.714);
-}
+} */
 
 
 .box-container{
@@ -41,13 +42,11 @@ body{
     max-width: 500px;
     background-color: white;
     display: grid;
-    /* grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr); */
     border: 2px rgb(137, 101, 107) solid;
     margin-top: 35px;
 }
 
 .box{
 
-    border:1px rgb(200, 186, 186) solid;
+    border:1px rgb(182, 169, 172) solid;
 }
